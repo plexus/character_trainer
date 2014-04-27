@@ -1,0 +1,42 @@
+PATH
+  remote: .
+  specs:
+    character_trainer (0.0.0)
+      engine (~> 0.0.0)
+      pry
+      rainbow (~> 2.0)
+
+PATH
+  remote: /home/arne/github/engine
+  specs:
+    engine (0.0.0)
+      analects (~> 0.3.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    analects (0.3.1)
+      ice_nine (~> 0.11.0)
+      inflecto (~> 0.0.2)
+      plexus-rmmseg (~> 0.1.6)
+      ting (~> 0.9.0)
+    coderay (1.1.0)
+    ice_nine (0.11.0)
+    inflecto (0.0.2)
+    method_source (0.8.2)
+    plexus-rmmseg (0.1.6)
+    pry (0.9.12.6)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    rainbow (2.0.0)
+    slop (3.5.0)
+    ting (0.9.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  analects
+  character_trainer!
+  engine!

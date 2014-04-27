@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'character_trainer'
+
+CharacterTrainer.run
